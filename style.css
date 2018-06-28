@@ -1,0 +1,27 @@
+#container {
+    display: grid;
+    height: 600px;
+    width: 800px;
+    /*min-height: 100vh;*/
+    margin: auto;
+}
+
+#buttons {
+    display: inline;
+    margin: auto;
+    border: none;
+}
+
+* {
+    /*padding: 0px;
+    margin: 0px;*/
+}
+
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+}
